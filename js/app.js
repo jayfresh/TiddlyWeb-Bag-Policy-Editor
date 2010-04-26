@@ -16,6 +16,7 @@ var makeBagList = function($node, bags) {
 };
 
 var loadPolicy = function($node, bag) {
+	$('#result').empty();
 	var policy = bag.policy;
 	$.each(policy, function(key, value) {
 		var $node = $('#'+key);
