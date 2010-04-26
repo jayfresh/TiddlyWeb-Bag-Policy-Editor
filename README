@@ -3,6 +3,8 @@ TiddlyWeb Bag Policy Editor
 This is a simple app to allow you to edit the policy of a TiddlyWeb bag.
 
 Dependencies:
+jQuery 1.3.x - http://jquery.com
+jQuery JSON - http://code.google.com/p/jquery-json/
 chrjs - http://github.com/tiddlyweb/chrjs
 
 Author: Jonathan Lister
