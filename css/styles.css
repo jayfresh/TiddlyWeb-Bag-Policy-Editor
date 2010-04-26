@@ -1,0 +1,55 @@
+/* common */
+
+.clear {
+	overflow: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.grid2col {
+	width: 600px;
+}
+
+.grid1col {
+	width: 300px;
+}
+
+.full {
+	width: 100%;
+}
+
+.currentFocus {
+	background-color: #FFE;
+}
+
+.error {
+	color: #f00;
+}
+
+/* end common */
+#wrapper {
+	padding: 40px 40px;
+}
+
+#config {
+	margin-bottom: 40px;
+}
+
+#loginStatus {
+	margin-top: 18px;
+	background-color: #efe;
+}
+
+#result, #loginStatus span {
+	color: #0f0;
+}
+
+#bagList em {
+	color: #ccc;
+}
+
+.error, #result {
+	padding-left: 5px;
+}

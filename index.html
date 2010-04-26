@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>TiddlyWeb Bag Policy Editor</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/baseline.base.css" />
+		<link rel="stylesheet" href="css/baseline.type.css" />
+	</head>
+	<body>
+		<div id="wrapper" class="grid2col">
+			<h1>TiddlyWeb Bag Policy Editor</h1>
+			<div id="config" class="clear">
+				<p><strong>Please note:</strong> you must be logged-in to the TiddlyWeb server for policy updating to work.</p>
+				<form>
+					<label for="host">TiddlyWeb host: </label><input id="host" type="text" size="40" />
+					<input type="submit" value="refresh bag list" />
+				</form>
+				<div id="loginStatus">
+					<button>check login status on host</button>
+					<span></span>
+				</div>
+			</div>
+			<div id="bags" class="left grid1col">
+				<h2>Bag list</h2>
+				<div id="bagList"><em>no bags loaded yet</em></div>
+			</div>
+			<div id="policyEditor" class="left grid1col">
+				<h2>Policy Editor</h2>
+				<form>
+					<label for="read">read</label><input type="text" id="read" name="read" size="40" />
+					<label for="read">write</label><input type="text" id="write" name="write" size="40" />
+					<label for="read">create</label><input type="text" id="create" name="create" size="40" />
+					<label for="read">delete</label><input type="text" id="delete" name="delete" size="40" />
+					<label for="read">manage</label><input type="text" id="manage" name="manage" size="40" />
+					<input type="submit" value="update policy" /><span id="result"></span>
+				</form>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.4.1.js"></script>
+		<script type="text/javascript" src="js/jquery.json-2.2.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>

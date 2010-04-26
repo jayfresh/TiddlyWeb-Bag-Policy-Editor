@@ -1,0 +1,9 @@
+TiddlyWeb Bag Policy Editor
+
+This is a simple app to allow you to edit the policy of a TiddlyWeb bag.
+
+Dependencies:
+chrjs - http://github.com/tiddlyweb/chrjs
+
+Author: Jonathan Lister
+Licence: Using the BSD licence, under the same terms as TiddlyWeb itself - see http://tiddlyweb.com
