@@ -42,6 +42,10 @@
 	background-color: #efe;
 }
 
+#policyEditor label {
+	display: block;
+}
+
 #result, #loginStatus span {
 	color: #0f0;
 }

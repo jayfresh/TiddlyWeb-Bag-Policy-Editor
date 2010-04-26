@@ -2,6 +2,8 @@ TiddlyWeb Bag Policy Editor
 
 This is a simple app to allow you to edit the policy of a TiddlyWeb bag.
 
+This works as a standalone (i.e. offline) web app in at least Firefox 3.6 (and under), Safari 4.0.4 (and under). This definitely does not work standalone in Chrome 5.0 due to JavaScript cross-domain security problems.
+
 Dependencies:
 jQuery 1.3.x - http://jquery.com
 jQuery JSON - http://code.google.com/p/jquery-json/
